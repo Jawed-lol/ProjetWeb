@@ -1,0 +1,196 @@
+nav{
+    height: 90px;
+}
+.hero-image{
+    background:url(img/hero-image-final-edition.png) ;
+    border-radius: 10px;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    height: 832px;
+    margin-left: 10px;
+    margin-right:10px ;    
+}
+.hero-text{
+    margin: 300px auto;
+    width: 700px;
+
+}
+.hero-text p{
+    font-size: 25px;
+}
+.hero-text button {
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+   }
+   
+   .hero-text button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #212121;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+   }
+   
+   .hero-text button:hover {
+    color: #e8e8e8;
+   }
+   
+   .hero-text button:hover::before {
+    width: 100%;
+   }
+.card {
+    width: auto;
+    height: 400px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    border: none;
+}
+
+.card-header-1st {
+    height: 250px;
+    background: linear-gradient(
+        to bottom, 
+        #63C7B2,  /* Aqua Blue */
+        #D1F2EB,  /* Light Seafoam */
+        white 90%  /* Fade to white */
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: -1px;  
+}
+.card-header-2nd {
+    height: 250px;
+    background: linear-gradient(
+        to bottom, 
+        #8A4FFF,  
+        #C484FF,  
+        white 90% 
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: -1px;  
+}
+.card-header-3rd {
+    height: 250px;
+    background: linear-gradient(
+        to bottom, 
+        #E2725B,  /* Terracotta Orange */
+        #F4A698,  /* Warm Peach */
+        white 90%  /* Fade to white */
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: -1px;  
+}
+.card-header-5th {
+    height: 250px;
+    background: linear-gradient(
+        to bottom, 
+        #91C7E1, 
+        #D6C6E1,  
+        white 90% 
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: -1px;  
+}
+.card-header-4th {
+    height: 250px;
+    background: linear-gradient(
+        to bottom, 
+        #A8D5BA,  
+        #F6E7D8,  
+        white 90% 
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: -1px;  
+}
+.card-header-6th {
+    height: 250px;
+    background: linear-gradient(
+        to bottom, 
+        #2A3D66,  
+        #BEC5D1,  
+        white 90% 
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: -1px;  
+}
+.card-title {
+    font-size: 2.2em;
+    color: #333;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.card-title h2 {
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.6em;
+    color: #333;
+}
+
+.card-content {
+    padding: 20px;
+    text-align: center;
+    background: white;
+    position: relative;
+    z-index: 1;
+}
+
+.card-description {
+    color: #666;
+    line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+}
+.presentation-info{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.row-2nd{
+    margin-top: 20px;
+}
+.presentation-info img{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 64px;
+    height: 64px;
+}
