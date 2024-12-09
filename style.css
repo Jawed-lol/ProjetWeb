@@ -1,3 +1,6 @@
+body{
+    background-color: #EEEEEE;
+}
 nav{
     height: 90px;
 }
@@ -69,9 +72,9 @@ nav{
     height: 250px;
     background: linear-gradient(
         to bottom, 
-        #63C7B2,  /* Aqua Blue */
-        #D1F2EB,  /* Light Seafoam */
-        white 90%  /* Fade to white */
+        #63C7B2, 
+        #D1F2EB,  
+        white 90%  
     );
     display: flex;
     align-items: center;
@@ -97,9 +100,9 @@ nav{
     height: 250px;
     background: linear-gradient(
         to bottom, 
-        #E2725B,  /* Terracotta Orange */
-        #F4A698,  /* Warm Peach */
-        white 90%  /* Fade to white */
+        #E2725B,  
+        #F4A698,  
+        white 90%  
     );
     display: flex;
     align-items: center;
@@ -193,4 +196,15 @@ nav{
     left: 20px;
     width: 64px;
     height: 64px;
+}
+.presentation{
+    background-color: #EEEEEE;
+}
+.presentation span{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2.5em; 
+    color: #333;  
+    line-height: 1.4;
+    letter-spacing: 1px; 
 }
