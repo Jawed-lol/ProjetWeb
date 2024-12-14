@@ -1,6 +1,3 @@
-body{
-    background-color: #EEEEEE;
-}
 nav{
     height: 90px;
 }
@@ -197,9 +194,6 @@ nav{
     width: 64px;
     height: 64px;
 }
-.presentation{
-    background-color: #EEEEEE;
-}
 .presentation span{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -209,11 +203,11 @@ nav{
     letter-spacing: 1px; 
 }
 .about{
-    margin-top: 100px;
+    padding-top: 200px;
 }
 .image-box-presentation-2 img{
-    height: 1000px;
-    width: 1000px;
+    height: 900px;
+    width: 900px;
     margin-top: -100px;
 }
 .about .title {
@@ -331,4 +325,238 @@ button:hover .circle .icon.arrow {
 
 button:hover .button-text {
  color: #fff;
+}
+.horizontal-accordion {
+    display: flex;
+    width: 90%;
+    height: 650px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+}
+.accordion-item {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: flex 0.4s ease; 
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px; 
+    margin-bottom: 100px;  
+}
+.accordion-content {
+    border-radius: 20px;
+    position: absolute;
+    bottom: 0;  
+    color: #fff;
+    width: 60%;
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    background: rgba(0, 0, 0, 0.4);
+}
+.accordion-item.expanded .accordion-content {
+    opacity: 1;    
+}
+.accordions-header{
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #333;
+    padding-top:200px ;
+}
+.accordion-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    font-weight: 200;
+    color: #333;
+}
+.accordion-subtitle{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3em;
+    color: #555;
+    line-height: 1.6;
+    font-weight: 10;
+}
+section{
+    background: linear-gradient(174deg, rgba(237,235,235,1) 28%, rgba(240,240,240,1) 70%, rgba(255,255,255,1) 94%);
+}
+.proven-technology {
+    background: url(img/leaf-image.jpg);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-top: 50px;
+    height: 900px;
+    padding: 60px 0;
+    border-radius: 20px;
+    width: calc(100% - 100px);
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+}
+
+.proven-technology-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.proven-technology img {
+    margin-bottom: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.proven-technology-part span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: #f0f0f0;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.proven-technology p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1.09rem;
+    line-height: 1.6;
+    width: 280px;
+    margin: 20px auto;
+    color: #e0e0e0;
+    text-align: center;
+}
+.proven-technology-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    font-weight: 100;
+}
+.proven-technology-desc{
+    font-family: 'Poppins', sans-serif;
+    font-size: 5em;
+    line-height: 1.6;
+}
+.proven-technology .title{
+    margin-bottom: 100px;
+}
+.lunara-footer {
+    background-color: #e6e9ed;
+    padding: 60px 0 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    margin-top:20px ;
+    padding-top: 20px;
+}
+
+.lunara-footer .footer-logo {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.lunara-footer .footer-about p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.lunara-footer .social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.lunara-footer .social-icon {
+    color: #6c757d;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.lunara-footer .social-icon:hover {
+    color: #007bff;
+}
+
+.lunara-footer .footer-links h4, 
+.lunara-footer .footer-newsletter h4 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.lunara-footer .footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.lunara-footer .footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.lunara-footer .footer-links ul li a {
+    color: #6c757d;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.lunara-footer .footer-links ul li a:hover {
+    color: #007bff;
+}
+
+.lunara-footer .newsletter-form {
+    display: flex;
+}
+
+.lunara-footer .newsletter-form input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px 0 0 4px;
+}
+
+.lunara-footer .newsletter-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    transition: background-color 0.3s ease;
+}
+
+.lunara-footer .newsletter-form button:hover {
+    background-color: #0056b3;
+}
+
+.lunara-footer .footer-bottom {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #dee2e6;
+    text-align: center;
+    font-size: 0.9rem;
+
+}
+
+.lunara-footer .footer-bottom a {
+    color: #6c757d;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.lunara-footer .footer-bottom a:hover {
+    color: #007bff;
+} 
+.navbar-nav{
+    margin-left: 35%;    
+}
+.navbar-nav a{
+    margin-right: 40px;
+}
+.nav-button{
+    margin-right: 50px;
 }

@@ -1,17 +1,27 @@
-function accord(){
-    const accordions=document.querySelectorAll(".accordion");
-    accordions.forEach(accordion =>{
-            accordion.addEventListener("mouseover",() => {
-                    accordions.forEach(acc => acc.className.remove("expand"));
-                    accordion.className.add("expand");
-                }
-            )    
-            accordion.addEventListener("mouseleave",()=>{
-                accordion.className.remove("expand");
-                accordions[0].className.add("expand");        
-            }) 
-        }   
-    );
-
+const accordionItems = document.querySelectorAll('.accordion-item');
+function resetAccordion() {
+    accordionItems.forEach((item, index) => {
+        if (index === 0) {
+            item.style.flex = '3';
+            item.classList.add('expanded');
+        } else {
+            item.style.flex = '1';
+            item.classList.remove('expanded');
+        }
+    });
 }
-accord();
+resetAccordion();
+accordionItems.forEach((item) => {
+    item.addEventListener('mouseenter', () => {
+        accordionItems.forEach((i) => {
+            i.style.flex = '1';
+            i.classList.remove('expanded');
+        });
+        item.style.flex = '3';
+        item.classList.add('expanded');
+    });
+
+    item.addEventListener('mouseleave', () => {
+        resetAccordion();
+    });
+});

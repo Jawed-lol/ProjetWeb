@@ -3,31 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lunara</title>
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <!---- Imported Fonts ---->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
 </head>
 <body class="">
     <section>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-                    Lunara
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/Website-Icon.png" alt="Logo" width="56" height="56" class="d-inline-block align-text-top">
                 </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" href="index.html">Home</a>
                   <a class="nav-link" href="#">Features</a>
                   <a class="nav-link" href="#">Pricing</a>
-                  <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  <a class="nav-link" href="#">Disabled</a>
                 </div>
+              </div>
+              <div class="nav-button">
+                <a href=""><button>Buy now</button></a>
               </div>
             </div>
         </nav>
@@ -54,7 +58,7 @@
 
 
     <section class="presentation section">
-        <div class="text-center mt-5">
+        <div class="text-center pt-5">
             <span>Poor Support is <br> linked to health conditions</span>
         </div>
         <div class=" presentation-info">
@@ -162,11 +166,95 @@
     </section>
 
     <section>
-        <div class="container">
-            <div class="row">
-                .col-4
+        <div class="mt-5 mb-5 accordions-header">
+            <span class="accordion-title">How it works</span> <br>
+            <span class="accordion-subtitle">Discover the Science <br>Behind Perfect Sleep with Our Pillows</span>
+        </div>
+        <div class="horizontal-accordion">
+            <div class="accordion-item" style="background-image: url('img/accordion-img-1.jpg');border-radius: 20px;">
+                <div class="accordion-content">
+                    <h3>Adapts to Your Sleeping Position for Optimal Alignment</h3>
+                    <p>Your sleeping position plays a crucial role in the quality of your rest and the health of your spine. Our pillows are meticulously designed to adapt to any position you sleep in—whether you’re a side sleeper, back sleeper, or stomach sleeper. <br><br>By providing tailored support to your head, neck, and shoulders, they ensure your spine stays in its natural alignment throughout the night.
+                    </p>
+                </div>
+            </div>
+            <div class="accordion-item" style="background-image: url('img/accordion-img-2.png');border-radius: 20px;">
+                <div class="accordion-content">
+                    <h3>Temperature-Regulating Materials for a Cool Night's Sleep</h3>
+                    <p>Overheating during sleep can interrupt your rest and leave you feeling groggy in the morning. That’s why our pillows are crafted with advanced temperature-regulating materials, including cooling gel layers, breathable fabrics, and moisture-wicking properties. <br><br>These innovative technologies work together to disperse heat, promote airflow, and maintain an ideal sleeping temperature. 
+                    </p>
+                </div>
+            </div>
+            <div class="accordion-item" style="background-image: url('img/accordion-img-3.jpg');border-radius: 20px;">
+                <div class="accordion-content">
+                    <h3>Engineered for Personalized Comfort and Support</h3>
+                    <p>No two sleepers are alike, and our pillows are built to accommodate your unique needs. Made with adaptive memory foam or customizable fill options, our pillows mold to the contours of your head and neck for unparalleled support.<br><br> Whether you prefer a firm feel to alleviate tension or a soft, plush texture for added comfort, our pillows let you find the perfect balance. 
+                    </p>
+                </div>
             </div>
         </div>
+        <div class="proven-technology">
+            <div class="title">
+                <span class="proven-technology-title">PROVEN TECHNOLOGY</span><br>
+                <span class="proven-technology-desc">Safe & Natural</span>
+            </div>
+            <div class="row">
+                <div class="col-4 proven-technology-part">
+                    <img src="img/technology-proven-img-1.png" alt="" style="border-radius: 5px;"><br>
+                    <span class="pt-5">Certified materials</span><br>
+                    <p>Lunara complies with the United States of America’s FCC marking, the European Union’s CE marking, and other national and international regulatory directives.</p>
+                </div>
+                <div class="col-4 proven-technology-part">
+                    <img src="img/technology-proven-img-2.png" alt="" style="border-radius: 5px;"><br>
+                    <span class="pt-5">Safe for Comfort</span><br>
+                    <p>Designed with user well-being in mind, Lunara is crafted from hypoallergenic materials and meets international safety and quality standards. Independently certified by TÜV Rheinland, Lunara ensures a safe and restful sleep experience.</p>
+                </div>
+                <div class="col-4 proven-technology-part">
+                    <img src="img/technology-proven-img-3.png" alt="" style="border-radius: 5px;"><br>
+                    <span class="pt-5">Natural Solution</span><br>
+                    <p>Lunara is a premium pillow designed to enhance your sleep and overall well-being using natural, ergonomic support. It is non-invasive, crafted from sustainable materials, and 100% free from harmful chemicals, ensuring a safe and restful experience</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <footer class="lunara-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 footer-about">
+                        <img src="img/Website-Icon.png" alt="Lunara Logo" class="footer-logo">
+                        <p>Lunara: Revolutionizing sleep with ergonomic, science-backed pillows designed for your ultimate comfort and well-being.</p>
+                        <div class="social-links">
+                            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 footer-links">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Lunara</a></li>
+                            <li><a href="#">Product Features</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 footer-newsletter">
+                        <h4>Stay Updated</h4>
+                        <p>Subscribe to our newsletter for sleep tips and exclusive offers</p>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Enter your email" required>
+                            <button type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2024 Lunara. All Rights Reserved | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+                </div>
+            </div>
+        </footer>
     </section>
 
     <!---- Scripts ---->
